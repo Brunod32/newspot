@@ -1,0 +1,77 @@
+body {
+  color: white;
+  /* background: hsl(172, 75%, 34%); */
+  background-image: url(piscine.jpg);
+  background-repeat: no repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo,
+#bannière {
+  width: 100px;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#carousel1,
+#carousel2,
+#carousel3,
+#carousel4,
+#carousel5,
+#carousel6 {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+
+}
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#contact,
+#location {
+  margin: 50px;
+}
+
+#ref1,
+#ref2 {
+  padding: 20px;
+}
+
+#errorEmail {
+  color: red;
+}
+
+footer {
+  text-align: center;
+  background-color: lightgrey;
+  color: black;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+footer ul {
+  list-style-type: none;
+}
