@@ -8,9 +8,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#logo,
-#bannière {
+/* #logo {
   width: 100px;
+  height: auto;
+} */
+
+#bannière {
+  width: 100%;
   height: auto;
 }
 
@@ -69,9 +73,16 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  
 }
 
 footer ul {
   list-style-type: none;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
 }
